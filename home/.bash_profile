@@ -1,4 +1,6 @@
 . ~/.git-completion.bash
+. ~/.cinderella.profile
+
 PS1='[ \W $(__git_ps1 "%s") ] '
 export EDITOR=/usr/bin/vim
 export RSPEC=true
@@ -16,6 +18,3 @@ alias feature='AUTOFEATURE=true autotest . -p wip'
 
 alias sshpair='ssh pair@ryandotsmith.shacknet.nu'
 alias rb='ssh pair@10.0.0.250'
-
-alias timeoff='cd ~/Code/projects/TimeOff'
-alias greenling='cd ~/Code/e/greenling'
