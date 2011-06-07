@@ -198,3 +198,6 @@
 
   map <C-c>n :cnext<CR>
   map <C-c>p :cprevious<CR>
+
+  map <leader>C :!cucumber %<CR>
+  map <leader>R :!rspec %<CR>

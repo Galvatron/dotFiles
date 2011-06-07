@@ -18,3 +18,6 @@ alias feature='AUTOFEATURE=true autotest . -p wip'
 
 alias sshpair='ssh pair@ryandotsmith.shacknet.nu'
 alias rb='ssh pair@10.0.0.250'
+
+# VIM keybindings
+set -o vi
